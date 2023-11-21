@@ -59,6 +59,13 @@
 			<artifactId>spring-kafka-test</artifactId>
 			<scope>test</scope>
 		</dependency>
+		<dependency>
+			<groupId>hirdb</groupId>
+			<artifactId>Hitachi</artifactId>
+			<version>5.4</version>
+			<scope>system</scope>
+			<systemPath>${basedir}/hirdb/hirdbdialect54.jar</systemPath>
+		</dependency>
 	</dependencies>
 
 	<build>
